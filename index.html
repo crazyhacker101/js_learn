@@ -6,13 +6,11 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Enough With JavaScript</title>
+
+    <script src="dateTime.js"></script>
     <script>
-        const daysOfTheWeek = ['Sunday', 'Monday', 'Tuesday', 'Wednesday', 'Thursday', 'Friday', 'Saturday'];
-
         let today = new Date();
-        let dayName = daysOfTheWeek[today.getDay()];
-
-        alert(`Hola world, Happy ${dayName}`);
+        console.log(greetUser(today));
     </script>
 </head>
 
