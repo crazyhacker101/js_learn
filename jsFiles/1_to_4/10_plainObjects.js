@@ -7,6 +7,7 @@ user["lastName"] = "pandey";
 user.class = 2018;
 
 // Display a property value
+console.log(user);
 console.log(user.firstName, user["lastName"], user["class"]);
 
 // What if we do not specify value -> It doesn't get created
